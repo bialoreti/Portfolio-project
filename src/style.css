@@ -1,3 +1,10 @@
+:root {
+  --secondary-color: white;
+  --primary-color: #272142;
+  --primary-font: "Poppins";
+}
+
+
 body {
   cursor: url("./cursorgradient.cur"), pointer;
 }
@@ -24,7 +31,7 @@ body {
 }
 
 #hello {
-  font-family: var(--font);
+  font-family: var(--primary-font);
   font-size: 128px;
   color: #272142;
   font-weight: bold;
@@ -53,43 +60,43 @@ body {
   font-size: 24px;
   color: var(--primary-color);
   margin-left: 100px;
-  font-weight: normal;
-  margin-bottom: 50px;
+  font-weight: 500;
+  margin-bottom: 100px;
   padding-left: 40px;
-  font-family: var(--font);
+  font-family: var(--primary-font);
 }
 
-h4 {
-  padding-bottom: 160px;
-  font-size: 20px;
-  font-family: var(--font);
-  padding-left: 80px;
+#comp-text {
+  padding-bottom: 140px;
+  font-size: 16px;
+  font-family: var(--primary-font);
+  padding-left: 60px;
   margin-left: 100px;
 }
 
-#project-title {
-  font-size: 50px;
-}
-:root {
-  --secondary-color: white;
-  --primary-color: #272142;
-  --font: "Poppins";
-}
-
-.index-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  position: relative;
-  flex-direction: column;
-  margin-top: 100px;
-}
-.section-buttons {
-  display: flex;
-  margin: 50px;
+#contact-me {
+  font-size: 40px;
+  font-family: "Sora", sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
+  padding-left: 40px;
 }
 
+#adj-1,
+#adj-2,
+#adj-3 {
+  font-size: 26px;
+}
 
+#adj-1:hover {
+  color: white;
+}
+#adj-2:hover {
+  color: white;
+}
+#adj-3:hover {
+  color: white;
+}
 
 button:hover {
   color: var(--primary-color);
