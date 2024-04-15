@@ -1,6 +1,7 @@
 :root {
   --primary-color: #272142;
   --primary-font: "Poppins";
+  --secondary-font: "Sora", sans-serif;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 }
 
 #navbar {
-  font-family: "Sora", sans-serif;
+  font-family: var(--secondary-font);
   display: block;
   position: fixed;
   top: 0;
@@ -21,7 +22,6 @@ body {
   font-size: 32px;
   color: var(--primary-color);
   font-weight: 600;
-  margin-top: 40px;
 }
 
 #nav-link {
@@ -54,7 +54,7 @@ body {
 #title {
   margin-left: 100px;
   font-size: 96px;
-  font-family: "Sora", sans-serif;
+  font-family: var(--secondary-font);
   text-align: left;
   padding-left: 60px;
   font-weight: bold;
@@ -100,14 +100,31 @@ body {
 }
 
 #about-h1 {
+  font-family: var(--primary-font);
+  font-size: 128px;
+  color: #272142;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-right: 200px;
+  padding-top: 160px;
+  padding-left: 60px;
+  margin-bottom: 0;
+}
+#dot {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#about-h2 {
   margin-left: 100px;
   font-size: 68px;
-  font-family: "Sora", sans-serif;
+  font-family: var(--secondary-font);
   text-align: left;
   padding-left: 60px;
   font-weight: bold;
   padding-bottom: 200px;
-  padding-top: 160px;
+  margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 #nav-link2 {
@@ -115,7 +132,7 @@ body {
   text-align: right;
 }
 #nav-link2:hover {
-  color: #4e72f0;
+  color: #848cdf;
   text-decoration: underline;
   transition-duration: 200ms;
 }
@@ -124,36 +141,43 @@ body {
   padding-left: 60px;
 }
 
-#project-one {
+#landing-page {
   font-family: var(--primary-font);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #848cdf;
+  text-align: left;
+  padding-right: 180px;
 }
-#project-two {
-  font-family: var(--primary-font);
+#weather-app {
+   font-family: var(--primary-font);
   font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  color: #848cdf;
+  text-align: left;
+  padding-right: 180px;
+}
+
+#languages {
   font-size: 20px;
+  font-weight: 400;
 }
 
 img {
-  width: 500px;
   margin-bottom: 100px;
-  border: solid 40px;
+  border: solid 20px;
   border-color: #f5f5f5;
 }
 
-#second-row {
-  padding-top: 100px;
-  padding-bottom: 200px;
-}
-
 #contact-container {
-  margin-top: 60px;
+  padding-top: 160px;
 }
 
 #contact-me {
   font-size: 40px;
-  font-family: "Sora", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: bold;
   margin-left: 100px;
   padding-left: 60px;
@@ -164,7 +188,8 @@ img {
   font-family: var(--primary-font);
   padding-left: 100px;
   margin-left: 100px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-weight: 500;
 }
 
@@ -177,7 +202,7 @@ img {
 i {
   padding: 10px;
   font-size: 30px;
-  background-color: #4e72f0;
+  background-color: #848cdf;
   border-radius: 50px 50px;
   margin-right: 20px;
   color: white;
@@ -191,7 +216,7 @@ i:hover {
 footer {
   font-size: 12px;
   padding: 40px;
-  font-family: "Sora", sans-serif;
+  font-family: var(--secondary-font);
   margin-left: 100px;
   padding-left: 100px;
 }
