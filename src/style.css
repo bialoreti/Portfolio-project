@@ -8,13 +8,27 @@ body {
   cursor: url("./cursorgradient.cur"), pointer;
 }
 
+@media (max-width: 700px) {
+  #about-h2 {
+    font-size: smaller;
+  }
+  #hello {
+    font-size: 40px !important;
+  }
+  #title {
+    font-size: 30px !important;
+  }
+  #navbar {
+    font-size: 20px !important;
+  }
+}
+
 #background {
   background-color: #facab2;
 }
 
 #navbar {
   font-family: var(--secondary-font);
-  display: block;
   position: fixed;
   top: 0;
   right: 0;
@@ -151,7 +165,7 @@ body {
   padding-right: 180px;
 }
 #weather-app {
-   font-family: var(--primary-font);
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 30px;
   text-decoration: none;
@@ -166,13 +180,13 @@ body {
 }
 
 img {
-  margin-bottom: 100px;
+  margin-bottom: 180px;
   border: solid 20px;
   border-color: #f5f5f5;
 }
 
 #contact-container {
-  padding-top: 160px;
+  padding-top: 100px;
 }
 
 #contact-me {
@@ -181,6 +195,7 @@ img {
   font-weight: bold;
   margin-left: 100px;
   padding-left: 60px;
+  padding-bottom: 20px;
 }
 
 #email {
@@ -188,15 +203,16 @@ img {
   font-family: var(--primary-font);
   padding-left: 100px;
   margin-left: 100px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   font-weight: 500;
+  text-decoration: none;
+  color: #848cdf;
 }
 
 #social-media {
   padding-left: 100px;
   margin-left: 100px;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 i {
