@@ -360,6 +360,12 @@ footer {
   padding-left: 100px;
 }
 
+a.github-rep {
+  text-decoration: none;
+  color: #faba9b;
+  font-weight: bold;
+}
+
 #my-name {
   color: #4e72f0;
   font-weight: bold;
