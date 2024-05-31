@@ -31,6 +31,15 @@
     display: flex !important;
     justify-content: space-evenly !important;
   }
+  #nav-link:hover {
+  color: #ffe8dd;
+  text-decoration: underline;
+  transition-duration: all 100ms ease-in-out;
+}
+
+#nav-link.active {
+color: #ffe8dd;
+}
   #hello {
     font-size: 55px !important;
     margin-left: 15px !important;
@@ -92,7 +101,11 @@ body {
 #nav-link:hover {
   color: #ffe8dd;
   text-decoration: underline;
-  transition-duration: 200ms;
+  transition-duration: all 100ms ease-in-out;
+}
+
+#nav-link.active {
+color: #ffe8dd;
 }
 
 #hello {
@@ -146,13 +159,9 @@ body {
   font-size: 26px;
 }
 
-#adj-1:hover {
-  color: #ffe8dd;
-}
-#adj-2:hover {
-  color: #ffe8dd;
-}
-#adj-3:hover {
+#adj-1:hover,
+ #adj-2:hover,
+ #adj-3:hover {
   color: #ffe8dd;
 }
 
@@ -189,15 +198,22 @@ body {
   padding-top: 100px;
 }
 
-#nav-link2 {
+#nav-link2,
+#nav-link3 {
   margin-bottom: 50px;
   text-align: right;
 }
-#nav-link2:hover {
+#nav-link2:hover,
+#nav-link3:hover {
   color: #848cdf;
   text-decoration: underline;
   transition-duration: 200ms;
 }
+
+#nav-link2.active {
+  color:#848cdf;
+}
+
 #projects-container {
   margin-left: 100px;
   padding-left: 60px;
