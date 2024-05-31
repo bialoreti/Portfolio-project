@@ -1,3 +1,65 @@
+
+@media (min-width:800px) and (max-width: 1024px){
+  #hello {
+    font-size: 60px !important;
+    padding-left: 30px !important; 
+  }
+#title {
+  font-size: 30px !important;
+  padding-left: 30px !important;
+}
+#subtitle {
+  padding-left: 30px !important;
+  font-size: 18px !important;
+}
+#comp-text {
+  padding-left: 30px !important;
+}
+}
+
+@media (max-width: 800px) {
+  #navbar {
+    position: relative !important;
+    font-size: 20px !important;
+   display: flex !important;
+   justify-content: space-evenly !important;
+   padding: 0 !important;
+  padding-top: 40px !important;
+   
+  }
+  #nav-link {
+    display: flex !important;
+    justify-content: space-evenly !important;
+  }
+  #hello {
+    font-size: 55px !important;
+    margin-left: 15px !important;
+    padding-top: 80px !important;
+  }
+  #title {
+    font-size: 40px !important;
+    margin-left: 15px !important;
+  }
+  
+  #subtitle {
+font-size: 20px !important;
+    margin-left: 15px !important;
+    margin-right: 30px !important;
+  }
+
+  #comp-text {
+    margin-left: 0px !important;
+    padding-right: 20px !important;
+  }
+
+  #about-h1 {
+font-size: 100px !important;
+
+  }
+
+
+}
+
 :root {
   --primary-color: #272142;
   --primary-font: "Poppins";
@@ -6,21 +68,6 @@
 
 body {
   cursor: url("./cursorgradient.cur"), pointer;
-}
-
-@media (max-width: 700px) {
-  #about-h2 {
-    font-size: smaller;
-  }
-  #hello {
-    font-size: 40px !important;
-  }
-  #title {
-    font-size: 30px !important;
-  }
-  #navbar {
-    font-size: 20px !important;
-  }
 }
 
 #background {
@@ -111,6 +158,7 @@ body {
 
 #second-background {
   background-image: linear-gradient(#ffe8dd, #f5f5f5);
+  
 }
 
 #about-h1 {
