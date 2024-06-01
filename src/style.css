@@ -25,6 +25,8 @@
   padding-left: 0px !important;
    margin-left: 80px !important;
 }
+
+
 }
 
 @media (max-width: 750px) {
@@ -101,6 +103,14 @@ text-align: center !important;
 #projects-container {
   margin: 0px !important;
   padding: 40px !important;
+}
+
+img {
+  margin-bottom: 20px !important;
+}
+
+.project-text {
+  margin-bottom: 60px;
 }
 
 #contact-me {
